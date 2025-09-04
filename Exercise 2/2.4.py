@@ -1,0 +1,6 @@
+a = int(input("Give me a number "))
+b = int(input("Give me a number "))
+c = int(input("Give me a number "))
+print("The sum of these numbers are ", a + b + c)
+print("The product of these numbers are ", a * b * c)
+print("The average of these numbers are ", (a + b + c) / 3)
