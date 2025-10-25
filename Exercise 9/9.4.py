@@ -34,7 +34,7 @@ while max(car.travelled_distance for car in cars) < 10000:
                 if w.travelled_distance >= 10000:
                     winners.append(w)
             if len(winners) >= 2:
-                print(f"CAR: {car.registration_number} PASSED THE FINNISH LINE!")
+                print(f"CAR: {car.registration_number} PASSED THE FINISH LINE!")
                 print("IT'S A TIE!")
             elif len(winners) == 1:
                 print(f"CAR: {car.registration_number} PASSED THE FINISH LINE!")
