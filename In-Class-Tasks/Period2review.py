@@ -73,7 +73,7 @@ store.show_inventory()
 
 ingredients = []
 while True:
-    choice = input("what do you wanna but?/or type 'done': ")
+    choice = input("what do you wanna buy?/or type 'done': ")
     if choice.lower() == 'done':
         break
     item = store.buy(choice)
